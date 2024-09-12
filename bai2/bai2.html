@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+    <div class="container">
+        <br>
+        <form action="" id="form">
+            <div class="r">
+                    <b>Product name</b>
+                    <input type="text" id="na">
+            </div>
+            <br>
+            <div class="r">
+                    <b>Product quantity</b>
+                    <input type="text" id="qu">
+            </div>
+            <br>
+            <div class="r">
+                <b>Product price</b>
+                <input type="text" id="pr">
+            </div>
+            <br>
+            <div>
+                <button onclick="myFunction1()">add</button>
+            </div>
+        </form>
+        <br>
+        <table border="1" id="table">
+            <thead>
+                <th>No</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Sub-totoal</th>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+            <tfoot id="tfoot">
+                <tr>
+                    <td colspan="4">Total</td>
+                    <td id="total">0</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="bai2.js"> </script>
+</body>
+</html>
