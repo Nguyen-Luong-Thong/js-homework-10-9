@@ -18,3 +18,4 @@ function myFunction1(){
     document.getElementById('tbody').innerHTML +=row;
     document.getElementById('total').innerHTML =total;
 }
+
