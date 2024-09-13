@@ -16,8 +16,7 @@ for (var i=1;i<=5;i++){
         var div= "<div class='box'> <p> "
         div+= num 
         div+="</p> </div>"
-        document.write(div); 
-        
+        document.write(div);     
         //document.write("1") 
         if(j==10){
             document.write('<br>')
