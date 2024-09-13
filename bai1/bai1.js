@@ -1,4 +1,3 @@
-<<<<<<<< HEAD:bai1/bai1.js
 var id=0;
 function myFunction1(){
     event.preventDefault();
@@ -18,5 +17,3 @@ function myFunction1(){
     row += "</tr>";
     document.getElementById('tbody').innerHTML +=row;
 }
-========
->>>>>>>> b36357a0fc30014cf74d74877b917e5e8d098d92:bai3/bai3.js
