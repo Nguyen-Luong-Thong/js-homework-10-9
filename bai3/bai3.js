@@ -1,5 +1,5 @@
 var id=0;
-var total=0
+var total=0;
 function myFunction1(){
     event.preventDefault();
     id++;
