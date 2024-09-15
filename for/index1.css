@@ -8,4 +8,35 @@
     margin: 10px;
     display: inline-block;
     text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.box:hover{
+    z-index: 10;
+}
+.t, .h{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+}
+.box:hover .t{
+    position: absolute;
+    right: 0;
+    top:100%;
+    display: inline-block;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(90, 247, 18);
+    z-index: 1000;
+}
+.box:hover .h{
+    display: block;
+    width: 100px;
+    min-height: 20px;
+    background-color: green;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    z-index: 1000;
 }
